@@ -1,5 +1,4 @@
 @import url(fontawesome-all.min.css);
-@import url(fontawesome-all.min.css);
 
 /*
 	Massively by HTML5 UP
@@ -3392,11 +3391,12 @@ input, select, textarea {
 		}
 
 		#intro p {
-			font-size: 1.25rem;
-			font-style: italic;
-			margin-top: -0.25rem;
-			text-align: center;
-		}
+    font-size: 1.25rem;
+    font-style: normal;
+    margin-top: 0.5rem;
+    text-align: center;
+    line-height: 1.7;
+}
 
 		#intro + #header {
 			margin-top: -20rem;
@@ -3567,7 +3567,7 @@ input, select, textarea {
 			border-style: solid;
 			border-color: #ffffff;
 			border-width: 5px !important;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: 'Poppins', sans-serif;
 			font-size: 2.25rem;
 			font-weight: 900;
 			letter-spacing: 0.075em;
@@ -4688,4 +4688,5 @@ input, select, textarea {
 		}
 
 	}
+
 
