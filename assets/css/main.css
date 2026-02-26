@@ -2224,6 +2224,10 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
+			 border-radius: 30px;
+    padding: 0 2.5rem;
+    font-weight: 600;
+
 			background-color: #212931;
 			box-shadow: none;
 			color: #ffffff !important;
@@ -3285,7 +3289,7 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 8rem 4rem 6rem 4rem ;
+		padding: 6rem 2rem 4rem 2rem;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -4688,5 +4692,17 @@ input, select, textarea {
 		}
 
 	}
+	/* Premium Card Hover Effect */
+
+#main > .posts > article {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#main > .posts > article:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+}
+	
+
 
 
